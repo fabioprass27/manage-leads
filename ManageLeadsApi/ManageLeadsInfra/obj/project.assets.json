@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ManageLeadsApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ManageLeadsDomain": "1.0.0",
+          "ManageLeadsDomainCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageLeadsApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageLeadsApp.dll": {}
+        }
+      },
+      "ManageLeadsDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ManageLeadsDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageLeadsDomain.dll": {}
+        }
+      },
+      "ManageLeadsDomainCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ManageLeadsDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageLeadsDomainCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageLeadsDomainCore.dll": {}
+        }
+      },
+      "ManageLeadsDomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ManageLeadsApp": "1.0.0",
+          "ManageLeadsDomainCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManageLeadsDomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManageLeadsDomainServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ManageLeadsApp/1.0.0": {
+      "type": "project",
+      "path": "../ManageLeadsApp/ManageLeadsApp.csproj",
+      "msbuildProject": "../ManageLeadsApp/ManageLeadsApp.csproj"
+    },
+    "ManageLeadsDomain/1.0.0": {
+      "type": "project",
+      "path": "../ManageLeadsDomain/ManageLeadsDomain.csproj",
+      "msbuildProject": "../ManageLeadsDomain/ManageLeadsDomain.csproj"
+    },
+    "ManageLeadsDomainCore/1.0.0": {
+      "type": "project",
+      "path": "../ManageLeadsDomainCore/ManageLeadsDomainCore.csproj",
+      "msbuildProject": "../ManageLeadsDomainCore/ManageLeadsDomainCore.csproj"
+    },
+    "ManageLeadsDomainServices/1.0.0": {
+      "type": "project",
+      "path": "../ManageLeadsDomainServices/ManageLeadsDomainServices.csproj",
+      "msbuildProject": "../ManageLeadsDomainServices/ManageLeadsDomainServices.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ManageLeadsApp >= 1.0.0",
+      "ManageLeadsDomain >= 1.0.0",
+      "ManageLeadsDomainCore >= 1.0.0",
+      "ManageLeadsDomainServices >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fabio\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsInfra\\ManageLeadsInfra.csproj",
+      "projectName": "ManageLeadsInfra",
+      "projectPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsInfra\\ManageLeadsInfra.csproj",
+      "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsInfra\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsApp\\ManageLeadsApp.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsApp\\ManageLeadsApp.csproj"
+            },
+            "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomainCore\\ManageLeadsDomainCore.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomainCore\\ManageLeadsDomainCore.csproj"
+            },
+            "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomainServices\\ManageLeadsDomainServices.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomainServices\\ManageLeadsDomainServices.csproj"
+            },
+            "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomain\\ManageLeadsDomain.csproj": {
+              "projectPath": "C:\\Users\\fabio\\Downloads\\manage-leads-spa-main\\ManageLeadsApi\\ManageLeadsDomain\\ManageLeadsDomain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
